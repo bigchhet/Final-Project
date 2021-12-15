@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "InvalidInput.h"
+#include "InvalidInput.hpp"
 
 using namespace std;
 

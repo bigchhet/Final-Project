@@ -1,5 +1,5 @@
-#include "FoodOrder.h"
-#include "InvalidInput.h"
+#include "FoodOrder.hpp"
+#include "InvalidInput.hpp"
 #include <iostream>
 
 using namespace std;

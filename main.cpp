@@ -3,17 +3,17 @@
 #include <cmath>
 #include <algorithm>
 #include <string>
-#include "BobaOrder.h"
-#include "Account.h"
-#include "DeliveryOrder.h"
-#include "FoodOrder.h"
-#include "InvalidInput.h"
+#include "BobaOrder.hpp"
+#include "Account.hpp"
+#include "DeliveryOrder.hpp"
+#include "FoodOrder.hpp"
+#include "InvalidInput.hpp"
 #include <iomanip>
 
 using namespace std;
 
 //applyDiscount() function
-float applyDiscount(DeliveryOrder* d, Account& a)
+float applyDiscount(DeliveryOrder* d, const Account& a)
 {
     float discount = 0;
 
@@ -47,7 +47,7 @@ int main()
 
     //Create Account Objects
     Account kev ("Kevin", "VIP");
-    Account stu ("Stuart", "Owner"); //idk how to make this a constant account?
+    const Account stu ("Stuart", "Owner");
     Account bob ("Bob");
 
     //create BobaOrder for Kevin

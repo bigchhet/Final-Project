@@ -1,5 +1,5 @@
-#include "BobaOrder.h"
-#include "InvalidInput.h"
+#include "BobaOrder.hpp"
+#include "InvalidInput.hpp"
 #include <iostream>
 
 using namespace std;
